@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  when: 2013-04-30 17:09:31
+  activity: 
+  contact: 
+  location: 
+
+two:
+  when: 2013-04-30 17:09:31
+  activity: 
+  contact: 
+  location: 
