@@ -80,4 +80,9 @@ class ContactsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def fullname
+    @contact = Contact.find(params[:id])
+    @contact.lname || ' ' || @contact.fname
+  end
 end
