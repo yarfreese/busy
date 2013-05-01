@@ -27,8 +27,11 @@
   </div>
   <div class="field">
     <%= f.label :location %><br />
-    <%= f.text_field :location %>
+    <%= f.collection_select :location_id, Location.all, :id, :name %>
+    <%= link_to "New Location", new_location_path %>
+    <% f.text_field :location %>
   </div>
+  <p>&nbsp;</p>
   <div class="actions">
     <%= f.submit %>
   </div>
