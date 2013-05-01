@@ -1,4 +1,7 @@
 Busy::Application.routes.draw do
+  resources :locations
+
+
   resources :contacts
 
 
